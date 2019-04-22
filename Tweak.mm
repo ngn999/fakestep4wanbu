@@ -35,7 +35,7 @@ the generation of a class list and an automatic constructor.
 /* @class WB_stepData_Day_Object */
 %hook WB_stepData_Day_Object
 -(void)setI_stepNum:(int)arg2 {
-    %orig(arg2 % 10000 + 10000);
+    %orig(1000 + arg2);
     return;
 }
 %end
@@ -43,7 +43,7 @@ the generation of a class list and an automatic constructor.
 /* @class WB_stepData_Object */
 %hook WB_stepData_Object
 -(void)setI_stepNum:(int)arg2 {
-    %orig(arg2 % 10000 + 10000);
+    %orig(1000 + arg2);
     return;
 }
 %end
