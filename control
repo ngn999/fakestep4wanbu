@@ -1,0 +1,9 @@
+Package: io.github.ngn999.fakestep4wanbu
+Name: FakeStep4Wanbu
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: ngn999
+Author: ngn999
+Section: Tweaks
