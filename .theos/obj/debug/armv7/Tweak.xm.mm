@@ -61,7 +61,7 @@ static void (*_logos_orig$_ungrouped$WB_stepData_Day_Object$setI_stepNum$)(_LOGO
 #line 36 "Tweak.xm"
 
 static void _logos_method$_ungrouped$WB_stepData_Day_Object$setI_stepNum$(_LOGOS_SELF_TYPE_NORMAL WB_stepData_Day_Object* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, int arg2) {
-    _logos_orig$_ungrouped$WB_stepData_Day_Object$setI_stepNum$(self, _cmd, 1000 + arg2);
+    _logos_orig$_ungrouped$WB_stepData_Day_Object$setI_stepNum$(self, _cmd, 1000 + rand()%1000);
     return;
 }
 
@@ -69,7 +69,7 @@ static void _logos_method$_ungrouped$WB_stepData_Day_Object$setI_stepNum$(_LOGOS
 
 
 static void _logos_method$_ungrouped$WB_stepData_Object$setI_stepNum$(_LOGOS_SELF_TYPE_NORMAL WB_stepData_Object* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, int arg2) {
-    _logos_orig$_ungrouped$WB_stepData_Object$setI_stepNum$(self, _cmd, 1000 + arg2);
+    _logos_orig$_ungrouped$WB_stepData_Object$setI_stepNum$(self, _cmd, 1000 + rand()%1000);
     return;
 }
 
